@@ -6,7 +6,7 @@ services:
     ports:
       - 9090:9090
     volumes:
-      - /home/ubuntu/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /home/ubuntu/Docker/prometheus.yml:/etc/prometheus/prometheus.yml
       
   grafana:
     image: grafana/grafana
